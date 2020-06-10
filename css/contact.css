@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family:  "Helvetica Now Text";
+}
+
+nav{
+  width: 100%;
+  background-color: white !important;
+}
+
+.home img{
+width: 100%;
+}
+
+.navbar{
+  padding: 1.2rem;
+  
+}
+.nav-head{
+  color: #FC3C3C;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 1.5rem;
+}
+.nav-head:hover{
+  color: #FC3C3C;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar-toggler-icon{
+  color: black;
+}
+.navbar-toggler{
+  background-color: Red;
+}
+
+.navbar-nav li {
+padding-left: 30px;
+
+}
+.nav-link {
+font-size: 1;
+font-weight: bolder;
+color: black;
+font-family: nunito;
+}
+.nav-link:hover{
+color: black;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.contact-showcase {
+  width: 100%;
+  height: 1000px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/images/contact.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contact-showcase h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.contact-info {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact-info .contact-form {
+  width: 50%;
+}
+
+.contact-info .contact-form form {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-info .contact-form form .username,
+.contact-info .contact-form form .email,
+.contact-info .contact-form form .subject,
+.contact-info .contact-form form .message {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.contact-info .contact-form form input,
+.contact-info .contact-form form textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 8px 0;
+  -webkit-box-shadow: 0 0 3px rgba(243, 59, 59, 0.6);
+          box-shadow: 0 0 3px rgba(243, 59, 59, 0.6);
+}
+
+.contact-info .contact-form form button {
+  text-align: center;
+  display: inline-block;
+  background: red;
+  color: white;
+  padding: 12px 50px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-info .contact-content {
+  margin: 0 0 0 50px;
+}
+
+.contact-info .contact-content p {
+  margin: 30px 0;
+  font-size: 24px;
+}
+
+.contact-info .contact-content p span {
+  padding: 10px 0;
+  display: block;
+}
+
+.contact-info .contact-content p i {
+  padding: 0 10px 0 0;
+  font-size: 20px;
+  color: red;
+}
+
+.contact-info .contact-content .social {
+  height: 50px;
+  padding: 20px 0;
+}
+
+.contact-info .contact-content .social span {
+  display: inline-block;
+  margin: 8px 0;
+  background: green;
+  margin: 30px 0;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.contact-info .contact-content .social span a {
+  color: white;
+}
+.responsive {
+  width: 99.9%;
+  height: 70
+}
+.footer {
+  padding-bottom: 20px !important;
+}
+
+.input-underline {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  color: white;
+  min-width: 90%;
+}
+
+.footer-title-item {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.click-link {
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contact-showcase {
+    height: 300px;
+  }
+  .contact-showcase h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .contact-info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .contact-form,
+  .contact-content {
+    width: 100%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
